@@ -21,9 +21,9 @@ Settings:
 <code>#define CONFIDENCE_LEVEL 0.95</code>
 
 
-<code>#define VENT_ALT 21000</code>
+<code>#define VENT_ALT 21000</code> (m)
 
-<code>#define FLOAT_TIME 60</code>
+<code>#define FLOAT_TIME 60</code> (min)
 
 Balloon takes off and reaches 2000 m. It is now ASCENDING.
 
