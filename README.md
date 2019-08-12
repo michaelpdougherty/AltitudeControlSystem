@@ -13,14 +13,12 @@ Currently, the system switches from GROUND to ASCENT once either someone has man
 For example,
 
 Settings:
-<code>
-#define ASCENT_RATE_RANGE 0.75 (m)
-#define TIME_IN_RANGE = 5000 (ms)
-#define CONFIDENCE_LEVEL 0.95
+<code>#define ASCENT_RATE_RANGE 0.75</code> (m)
+<code>#define TIME_IN_RANGE = 5000</code> (ms)
+<code>#define CONFIDENCE_LEVEL 0.95</code>
 
-#define VENT_ALT 21000
-#define FLOAT_TIME 60
-</code>
+<code>#define VENT_ALT 21000</code>
+<code>#define FLOAT_TIME 60</code>
 
 Balloon takes off and reaches 2000 m. It is now ASCENDING.
 
