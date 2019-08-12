@@ -13,6 +13,7 @@ Currently, the system switches from GROUND to ASCENT once either someone has man
 For example,
 
 Settings:
+
 <code>#define ASCENT_RATE_RANGE 0.75</code> (m)
 <code>#define TIME_IN_RANGE = 5000</code> (ms)
 <code>#define CONFIDENCE_LEVEL 0.95</code>
@@ -28,7 +29,7 @@ Ascent rate has been measured within the range of +/- 0.75 m/s. The ACS will now
 
 5 seconds is up. 5 times out of range, 114 times in range.
 
-96 / (5 + 96) = 0.9505
+<code>96 / (5 + 96) = 0.9505</code>
 
 The calculation has satisfied our desired 95% confidence level. The system believes it has achieved neutral buoyancy. And closes the actuator. A timer begins for the predetermined amount of time to float over the city. It is now FLOATING.
 
